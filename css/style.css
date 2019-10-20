@@ -1,0 +1,117 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+/* container */
+.container{
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    box-shadow: 0 0 35px darkgray;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+/* brand */
+.brand a {
+    display:block;
+}
+
+.brand img {
+    display: block;
+}
+
+/* menu */
+nav ul{
+list-style: none;    
+margin: 0;
+padding: 0;
+
+
+}
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    color:black;
+    padding: 10px 15px; 
+    /* góra 10  bok 15 */
+    font-size: 18px;
+    display: block;
+
+}
+nav a:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.slider img{
+    display: block;
+}
+/* main */
+main{
+    display: flex;
+    justify-content: space-between;
+}
+/* article */
+article{
+    width: 70%;
+    padding: 30px;
+}
+/* aside */
+aside{
+    width: 30%;
+    padding: 30px;
+    background-color: #797979;
+    border-left: 1px solid black;
+    font-family: 'Long Cang', cursive;
+}
+.widget {
+margin-bottom: 40px;
+
+}
+
+.widget ul {
+    list-style-type: square;
+    padding: 0 0 0 18px;
+    margin: 0;
+}
+.widget li {
+    margin-bottom: 10px;
+}
+/* fotter */
+footer{
+    background-color: #ebe8e8;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 22px 15px;
+}
+
+footer p{
+    margin: 0;
+}
+
